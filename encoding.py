@@ -7,14 +7,6 @@ def encoder(num):
 
     return str_blank
 
-def decoder(num):
-    string = str(num)
-    str_blank = ''
-    for i in string:
-        i = str((int(i)-3)%10)
-        str_blank+=i
-
-    return str_blank
 
 def main():
     password = None
