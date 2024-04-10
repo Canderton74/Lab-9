@@ -7,6 +7,10 @@ def encoder(num):
 
     return str_blank
 
+def decoder(input):
+    for element in input:
+        element = str((int(element)-3)%10)
+    return input
 
 def main():
     password = None
