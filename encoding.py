@@ -11,7 +11,7 @@ def decoder(input):
     for element in input:
         element = str((int(element)-3)%10)
     return input
-
+#comment
 def main():
     password = None
     while True:
